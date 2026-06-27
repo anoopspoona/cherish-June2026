@@ -1,0 +1,1 @@
+export default function Admin(){return <div><p className="label">Operations</p><h1 className="font-serif text-6xl">Kitchen control room</h1><p className="mt-4 text-olive">Manage imports, menu cycle, delivery zones, production manifests and backups.</p></div>}

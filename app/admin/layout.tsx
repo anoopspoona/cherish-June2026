@@ -1,0 +1,2 @@
+import AdminShell from '@/components/admin/AdminShell';import { createClient } from '@/lib/supabase/server';import { redirect } from 'next/navigation';
+export default async function AdminLayout({children}:{children:React.ReactNode}){if(process.env.NEXT_PUBLIC_SUPABASE_URL){try{const s=await createClient();const {data:{user}}=await s.auth.getUser();if(user){const {data}=await s.from('admin_users').select('status,role').eq('email',user.email).eq('status','active').maybeSingle();if(!data)redirect('/account')}}catch{}}return <AdminShell>{children}</AdminShell>}
