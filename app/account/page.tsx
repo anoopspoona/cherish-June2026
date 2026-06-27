@@ -1,0 +1,1 @@
+export default function Account(){return <main className="mx-auto max-w-5xl px-6 py-12"><p className="label">Account</p><h1 className="font-serif text-7xl">Addresses, orders and subscriptions</h1><div className="editorial-card mt-8 p-8">Google Maps fallback-safe address validation and Monday–Saturday delivery ledger.</div></main>}

@@ -1,0 +1,1 @@
+import { MenuCalendar } from '@/components/site/MenuCalendar';export default function AccountCalendar(){return <main className="mx-auto max-w-7xl px-6 py-12"><p className="label">Account Calendar</p><h1 className="font-serif text-6xl">Your delivery rhythm</h1><div className="mt-8"><MenuCalendar/></div></main>}

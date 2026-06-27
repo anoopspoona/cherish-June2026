@@ -1,0 +1,1 @@
+export default function Page(){return <div><p className="label">Admin</p><h1 className="font-serif text-6xl">dishes</h1><div className="editorial-card mt-8 p-6"><p className="text-olive">Supabase-backed management screen for dishes. Mutations are designed for server actions, audit logs, and RLS-protected persistence.</p></div></div>}
